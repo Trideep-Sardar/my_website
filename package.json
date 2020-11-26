@@ -4,6 +4,7 @@
   "description": "this is the first website created by trideep.works",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "trideep sardar",
