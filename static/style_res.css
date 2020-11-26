@@ -1,0 +1,31 @@
+/* responsive screen */
+
+@media only screen and (max-width:630px){
+    .navBar{
+        flex-direction: column;
+        transition:all 0.5s ease;
+        height:267px;
+    }
+    .navHeight{
+        height: 60px;
+    }
+    #logo{
+        width:100%;
+    }
+    #navMenu{
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #navMenu li{
+        margin: 4px 12px;
+    }
+    .opacity{
+        opacity: 0;
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+
+}

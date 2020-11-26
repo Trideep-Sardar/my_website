@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.2);
+}
+#logo img{
+    width: 200px;
+    height: 100px;
+}
+.navBar{
+    display: flex;
+    background-color: rgba(0,0,0,0.2);
+    min-width: 518px;
+    position: relative;
+    width: auto;
+}
+#navMenu{
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    width: 70%;
+    justify-content: flex-end;
+}
+#navMenu li{
+    list-style: none;
+    margin: auto 12px;
+}
+.a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+#navMenu li a:hover{
+    color: rgb(54, 50, 50);
+}
+.active{
+    color: rgb(54, 50, 50);   
+}
+
+#burger{
+    display: none;
+    margin: 8px auto;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+.line{
+    width: 35px;
+    height: 4px;
+    background-color: rgb(19, 18, 18);
+    margin: 3px 3px;
+    border-radius: 15px;
+}
+
+#intro{
+    min-height: 550px;
+    min-width: 518px;
+}
+#introSlider{
+    max-width: 100%;
+    min-height: 550px;
+    animation: animate 15s infinite;
+}
+@keyframes animate{
+    0%{
+        background: url(./media/college.jpg)center center no-repeat;
+        background-size: cover;
+    }
+    25%{
+        background: url(./media/work_logo1.jpg)center center no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background: url(./media/work_logo2.jpg)center center no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background: url(./media/work_logo3.jpg)center center no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: url(./media/skills_bg2.jpg)center center no-repeat;
+        background-size: cover;
+    }
+    0%{
+        background: url(./media/skills_bg2.jpg)center center no-repeat;
+        background-size: cover;
+    }
+    
+}
+#darkIntro{
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    min-width: 518px;
+    min-height: 550px;
+    padding-top: 100px;
+}
+#introText{
+    max-width: 80%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    border-bottom: 4px solid white;
+    padding-bottom: 20px;
+}
+#introLogo{
+    max-width: 250px;
+    max-height: 250px;
+    display: block;
+    margin: auto;
+}
+#introLogo img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#basic{
+    min-width: 518px;
+    min-height: 600px;
+    background-color: rgba(199, 195, 195, 0.836);
+}
+#basicCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardsCommon{
+    min-height: 100%;
+    max-width: 400px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 20px black;
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(88, 81, 81);
+    color: white;
+    cursor: pointer;
+}
+.cardsCommon:hover{
+    background-color:rgb(133, 130, 130) ;
+}
+#card-1{
+    margin-top: 50px;
+}
+#card-4{
+    margin-bottom: 50px;
+}
+.cardsCommon p{
+    font-size: 1.2rem;
+}
+.cardsCommon img{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+#footer{
+    min-height:200px;
+    min-width: 518px;
+    background-color: black;
+}
+#footer p{
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#footercontent a img{
+    height: 70px;
+    width: 70px;
+    margin: auto 50px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    outline: none;
+    opacity: 0.5;
+}
+#footercontent{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+#footercontent a img:hover{
+    opacity: 1;
+}
+
+
+

@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.2);
+}
+#logo img{
+    width: 200px;
+    height: 100px;
+}
+.navBar{
+    display: flex;
+    background-color: rgba(0,0,0,0.2);
+    min-width: 518px;
+    position: relative;
+    width: auto;
+}
+#navMenu{
+    display: flex;
+    background-color: rgba(0,0,0,0.7);
+    width: 70%;
+    justify-content: flex-end;
+}
+#navMenu li{
+    list-style: none;
+    margin: auto 12px;
+}
+.a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+}
+#navMenu li a:hover{
+    color: rgb(54, 50, 50);
+}
+.active{
+    color: rgb(54, 50, 50);   
+}
+
+#burger{
+    display: none;
+    margin: 8px auto;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+.line{
+    width: 35px;
+    height: 4px;
+    background-color: rgb(19, 18, 18);
+    margin: 3px 3px;
+    border-radius: 15px;
+}
+
+#profileImage img{
+    width: 160px;
+    height: 150px;
+    border: 2px solid whitesmoke;
+    outline: none;
+    border-radius: 50%;
+}
+#profileContainer{
+    position: relative;
+    background: url(./media/profile_bg.jpg)center center no-repeat;
+    background-size: cover;
+    min-width: 518px;
+    min-height: 600px;
+}
+#contentDark{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    min-width: 518px;
+    min-height: 600px;
+}
+#profileContent{
+    text-align: center;
+    padding-top: 7%;
+}
+
+#profileDetail h1,#spans{
+    color: white;
+}
+#profileDetail h1{
+    font-size: 3rem;
+    margin-top: 12px;
+}
+#spans{
+    margin-bottom: 12px;
+}
+#spans span{
+    font-size: 1.5rem;
+}
+#quoto{
+    border-top: 2px solid white;
+    max-width: 70%;
+    margin: auto;
+    padding-top: 25px;
+}
+#quoto p{
+    color: white;
+    font-size: 1.5rem;
+    max-width: 100%;
+    margin: auto;
+}
+#profileInner{
+    min-height: 600px;
+    min-width: 518px;
+    padding-top: 25px;
+    background-color: rgba(0,0,0,0.2);
+}
+#profileData{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+#profileData h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.lists{
+    position: relative;
+    border: 2px solid transparent;
+    margin: 22px 25%;
+    box-shadow: 15px 18px 10px rgb(66, 65, 65);
+    max-width: 800px;
+    min-height: 450px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.lists img{
+    display: block;
+    width: 100%;
+    height: 450px;
+}
+#boxContent{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    min-height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    text-align: center;
+    padding: 5%;
+    cursor: pointer;
+}
+#boxContent h1{
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+    margin-bottom: 16px;
+}
+#boxContent p{
+    font-size: 1.2rem;
+}
+#box-4 #boxContent{
+    background-color: rgba(0,0,0,0.8);
+}
+#box-2 #boxContent{
+    background-color: rgba(0,0,0,0.8);
+}
+.lists:hover #boxContent{
+    left: 0%;
+}
+
+/* school content */
+
+#logos{
+    display: flex;
+    justify-content: center;
+}
+#logos img{
+    margin: 18px auto;
+    height: 180px;
+    width: 250px;
+}
+
+/* college content */
+
+#logoc{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 36px;
+}
+#logoc img{
+    height:180px;
+    width: 250px;
+}
+
+/* skills content */
+
+#logosk{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+}
+#logosk img{
+    height:150px;
+    width: 250px;
+    /* border: 2px solid white; */
+    /* border-radius: 10px; */
+}
+
+/* certificate content */
+#logoce{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#logoce img{
+    height: 150px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+#footer{
+    min-height:200px;
+    min-width: 518px;
+    background-color: black;
+}
+#footer p{
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#footercontent a img{
+    height: 70px;
+    width: 70px;
+    margin: auto 50px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    outline: none;
+    opacity: 0.5;
+}
+#footercontent{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+#footercontent a img:hover{
+    opacity: 1;
+}
